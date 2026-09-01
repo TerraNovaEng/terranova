@@ -58,7 +58,7 @@
         <div class="text-xs font-mono text-cyan-400 uppercase tracking-widest mb-2">// Competition Track Record</div>
         <h2 class="text-2xl sm:text-3xl font-bold mb-4">Hands-On Competition Experience</h2>
         <p class="text-slate-400 text-sm max-w-3xl mb-8">
-            Initial foundational development and club mentorship took place at Milford High School under my direction as the sole STEM mentor. Advanced rocket design and subsequent TARC milestones were advanced and formalized through Terranova Engineering Lab, a grassroots engineering initiative.
+            Initial foundational development and club mentorship took place at Milford High School (MHS) under my direction as the sole STEM mentor. Acquired funding for a Radio Frequency Station. Advanced rocket design and subsequent TARC milestones were advanced and formalized through Terranova Engineering Lab, a grassroots engineering initiative.
         </p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -97,7 +97,7 @@
             <h3 class="text-sm font-mono text-cyan-400 mb-3">📁 ARCHIVE REPOSITORIES</h3>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <a href="https://drive.google.com/drive/folders/14HwFE-AZYccz23sr12pPYxN2hQu1MtOB?usp=drive_link" target="_blank" class="p-4 rounded-lg bg-slate-900 border border-slate-800 hover:border-cyan-500/40 transition block">
-                    <div class="text-sm font-bold text-slate-100 mb-1">Milford High School STEM Archive</div>
+                    <div class="text-sm font-bold text-slate-100 mb-1">TerraNova Work at MHS STEM Archive</div>
                     <div class="text-xs text-slate-400">Foundational student guidance and early project records.</div>
                 </a>
                 <a href="https://drive.google.com/drive/folders/1a6zOO71dIYL0KY7aVtzTJ8IvcL3H_Oz3?usp=drive_link" target="_blank" class="p-4 rounded-lg bg-slate-900 border border-slate-800 hover:border-cyan-500/40 transition block">
@@ -204,7 +204,7 @@
                     <span class="text-cyan-400 font-semibold">Bridging to Europe:</span> Having relocated to Germany, I am looking to connect with and mentor student teams interested in European competitions such as <strong class="text-slate-100 font-semibold">CanSat</strong> and <strong class="text-slate-100 font-semibold">Jugend forscht (Technik)</strong>, applying the same modeling and documentation standards used in US challenges.
                 </p>
                 <div class="text-xs font-mono text-slate-400">
-                    📍 Based in Germany
+                    📍 Originally from the US.  
                 </div>
             </div>
 
