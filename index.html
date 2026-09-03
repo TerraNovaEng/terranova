@@ -134,12 +134,10 @@
                 <div class="text-xs font-mono text-cyan-400 uppercase tracking-widest mb-2">// Technical Builds & Codebases</div>
                 <h2 class="text-2xl sm:text-3xl font-bold">Featured Projects & Simulations</h2>
             </div>
-            <a href="https://github.com/TerraNovaEng" target="_blank" class="text-xs font-mono bg-slate-900 border border-slate-800 hover:border-cyan-500/40 text-cyan-400 px-4 py-2 rounded transition flex items-center gap-2">
-                <span>📂 Explore GitHub Organization</span>
-            </a>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Card 1: Aerospace Modeling -->
             <div class="p-6 rounded-xl bg-slate-900/70 border border-slate-800 hover:border-cyan-500/40 transition">
                 <div class="flex items-center justify-between text-xs font-mono text-cyan-400 mb-3">
                     <span>AEROSPACE MODELING</span>
@@ -156,6 +154,94 @@
                 </div>
             </div>
 
+            <!-- Card 2: GitHub Organization Card (Replaced the broken system block) -->
+            <a href="https://github.com/TerraNovaEng" target="_blank" class="p-6 rounded-xl bg-slate-900/70 border border-cyan-500/30 hover:border-cyan-400 hover:bg-slate-900 transition flex flex-col justify-between group">
+                <div>
+                    <div class="flex items-center justify-between text-xs font-mono text-cyan-400 mb-3">
+                        <span>SOURCE CODE</span>
+                        <span>GITHUB REPOSITORIES</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-100 mb-2 group-hover:text-cyan-300 transition flex items-center gap-2">
+                        <span>TerraNovaEng Organization</span>
+                        <span class="text-sm">↗</span>
+                    </h3>
+                    <p class="text-slate-400 text-sm mb-4 leading-relaxed">
+                        Explore our complete multi-disciplinary source code repositories, web applications, React frontends, and experiment archives on GitHub.
+                    </p>
+                </div>
+                <div class="flex flex-wrap gap-2 text-[11px] font-mono text-slate-300">
+                    <span class="bg-cyan-950/60 border border-cyan-800/60 text-cyan-300 px-2.5 py-1 rounded">📂 GitHub Profile</span>
+                    <span class="bg-slate-800 px-2.5 py-1 rounded">React / Python / Web</span>
+                </div>
+            </a>
+
+            <!-- Card 3: Linux Security -->
             <div class="p-6 rounded-xl bg-slate-900/70 border border-slate-800 hover:border-cyan-500/40 transition">
                 <div class="flex items-center justify-between text-xs font-mono text-cyan-400 mb-3">
-                    <span>SYSTEM
+                    <span>SYSTEMS INFRASTRUCTURE</span>
+                    <span>SECURITY</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 mb-2">Linux Security & Network Diagnostic Labs</h3>
+                <p class="text-slate-400 text-sm mb-4 leading-relaxed">
+                    Sandboxed environments for practicing user access controls, process tracking, automated shell diagnostics, and network configuration.
+                </p>
+                <div class="flex flex-wrap gap-2 text-[11px] font-mono text-slate-400">
+                    <span class="bg-slate-800 px-2 py-0.5 rounded">Bash Scripting</span>
+                    <span class="bg-slate-800 px-2 py-0.5 rounded">Linux SysAdmin</span>
+                    <span class="bg-slate-800 px-2 py-0.5 rounded">CyberPatriot</span>
+                </div>
+            </div>
+
+            <!-- Card 4: Mini-Satellite Payload -->
+            <div class="p-6 rounded-xl bg-slate-900/70 border border-slate-800 hover:border-cyan-500/40 transition">
+                <div class="flex items-center justify-between text-xs font-mono text-cyan-400 mb-3">
+                    <span>AVIONICS</span>
+                    <span>CANSAT TRACK</span>
+                </div>
+                <h3 class="text-lg font-bold text-slate-100 mb-2">Mini-Satellite Payload & Telemetry Logging</h3>
+                <p class="text-slate-400 text-sm mb-4 leading-relaxed">
+                    Integrated sensor packages measuring altitude, pressure, and descent velocity with real-time onboard data logging for rocket deployment tests.
+                </p>
+                <div class="flex flex-wrap gap-2 text-[11px] font-mono text-slate-400">
+                    <span class="bg-slate-800 px-2 py-0.5 rounded">Microcontrollers</span>
+                    <span class="bg-slate-800 px-2 py-0.5 rounded">Telemetry</span>
+                    <span class="bg-slate-800 px-2 py-0.5 rounded">Sensor Bus</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="border-t border-slate-800/80 bg-slate-950 py-16">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-start justify-between gap-8">
+            <div class="max-w-xl">
+                <div class="text-xs font-mono text-cyan-400 uppercase tracking-widest mb-2">// Background & Direction</div>
+                <h3 class="text-xl font-bold mb-3">About TerraNova Engineering Lab</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                    TerraNova is a grassroots engineering lab serving as a technical hub for flight simulation, Linux systems experiments, and middle and high school student team mentorship.
+                </p>
+                <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                    <span class="text-cyan-400 font-semibold">Bridging to Europe:</span> Now based in Germany, focusing on connecting with and mentoring middle and high school student teams for competitions like <strong class="text-slate-100 font-semibold">CanSat</strong> and <strong class="text-slate-100 font-semibold">Jugend forscht (Technik)</strong> using robust modeling and documentation standards.
+                </p>
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl text-xs font-mono text-slate-300 w-full md:w-auto min-w-[280px]">
+                <div class="text-cyan-400 font-bold mb-2">COLLABORATION & MENTORSHIP:</div>
+                <ul class="space-y-1.5 text-slate-400 mb-5">
+                    <li>• European / German CanSat Teams</li>
+                    <li>• Jugend forscht Project Mentorship</li>
+                    <li>• OpenRocket & CAD Design Audits</li>
+                    <li>• Technical Portfolio Guidance</li>
+                </ul>
+                <a href="mailto:info@terranovaengineeringlab.com?subject=Mentorship%20/%20Collaboration%20Inquiry" class="block text-center bg-cyan-500 text-slate-950 font-bold font-sans py-2.5 px-4 rounded hover:bg-cyan-400 transition">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-slate-800 py-8 text-center text-slate-500 text-xs font-mono">
+        <p>&copy; 2026 TerraNova Engineering Lab. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
